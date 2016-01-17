@@ -31,9 +31,9 @@ object Form1: TForm1
   object Label2: TLabel
     Left = 160
     Top = 88
-    Width = 24
+    Width = 79
     Height = 13
-    Caption = 'Edit3'
+    Caption = 'Merge to Master'
   end
   object Button1: TButton
     Left = 32
