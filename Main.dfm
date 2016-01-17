@@ -2,7 +2,7 @@ object Form1: TForm1
   Left = 0
   Top = 0
   Caption = 'GitTest1'
-  ClientHeight = 77
+  ClientHeight = 113
   ClientWidth = 340
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -16,10 +16,17 @@ object Form1: TForm1
   TextHeight = 13
   object LabelGitTest1: TLabel
     Left = 32
-    Top = 13
+    Top = 21
     Width = 40
     Height = 13
     Caption = 'GitTest1'
+  end
+  object Label1: TLabel
+    Left = 40
+    Top = 88
+    Width = 39
+    Height = 13
+    Caption = 'Branch1'
   end
   object Button1: TButton
     Left = 32
@@ -40,6 +47,8 @@ object Form1: TForm1
     OnClick = Button2Click
   end
   object MainMenu1: TMainMenu
+    Left = 240
+    Top = 8
     object File1: TMenuItem
       Caption = '&File'
       object Exit1: TMenuItem

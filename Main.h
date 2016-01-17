@@ -18,6 +18,7 @@ __published:	// IDE で管理されるコンポーネント
 	TMainMenu *MainMenu1;
 	TMenuItem *File1;
 	TMenuItem *Exit1;
+	TLabel *Label1;
 	void __fastcall Button1Click(TObject *Sender);
 	void __fastcall Button2Click(TObject *Sender);
 	void __fastcall Exit1Click(TObject *Sender);
