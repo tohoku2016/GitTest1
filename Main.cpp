@@ -16,7 +16,13 @@ __fastcall TForm1::TForm1(TComponent* Owner)
 //---------------------------------------------------------------------------
 void __fastcall TForm1::Button1Click(TObject *Sender)
 {
-	LabelGitTest1->Caption = "Button pushed";
+	LabelGitTest1->Caption = "Button1 pushed";
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Button2Click(TObject *Sender)
+{
+	LabelGitTest1->Caption = "Button2 pushed";
 }
 //---------------------------------------------------------------------------
 
