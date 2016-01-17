@@ -33,7 +33,7 @@ object Form1: TForm1
     Top = 88
     Width = 24
     Height = 13
-    Caption = 'Edit2'
+    Caption = 'Edit3'
   end
   object Button1: TButton
     Left = 32
